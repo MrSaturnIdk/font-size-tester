@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Font size tester</title>
+    <meta name="description" content="Test font sizes">
+
+    <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="../../resources/icons/appleTouchIcon.png"
+    >
+    <link
+        rel="icon"
+        type="image/x-icon"
+        href="../../resources/icons/favicon.ico"
+    >
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="../../resources/icons/favicon32x32.png"
+    >
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="../../resources/icons/favicon16x16.png"
+    >
+    <link 
+        rel="manifest"
+        href="../../site.webmanifest"
+    >
+
+    <link rel="stylesheet" href="../../main.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="update.js" defer></script>
+</head>
+
+<body>
+    <noscript class="giant">
+        <h1>Your JavaScript is not enabled. Please enable it.</h1>
+    </noscript>
+    <div id="loading-screen" class="giant">
+        <h1>Loading...</h1>
+    </div>
+
+    <p id="main-p">Hello World</p>
+
+    <input type="text" id="size" value="1rem">
+    <input type="text" id="font" value="&quot;Comic Sans MS&quot;, &quot;Comic Sans&quot;, sans-serif">
+    <input type="text" id="bg-color" value="#F5BF60">
+    <input type="text" id="text-color" value="#000000">
+    <input type="text" id="text" value="Hello World">
+
+    <button id="update" onclick="update();">Update screen</button>
+</body>
+
+</html>
