@@ -6,7 +6,6 @@ console.log("[INFO] Loading");
 
 const LOADING_SCREEN = document.getElementById("loading-screen");
 const MAIN_P = document.getElementById("main-p");
-const BODY = document.body;
 const SIZE = document.getElementById("size");
 const FONT = document.getElementById("font");
 const BG_COLOR = document.getElementById("bg-color");
@@ -18,7 +17,7 @@ function update() {
     MAIN_P.innerHTML = TEXT.value.trim();
     MAIN_P.style.fontSize = SIZE.value.trim();
     MAIN_P.style.fontFamily = FONT.value.trim();
-    BODY.style.backgroundColor = BG_COLOR.value.trim();
+    document.body.style.backgroundColor = BG_COLOR.value.trim();
     TEXT_COLOR.style.backgroundColor = BG_COLOR.value.trim();
     BG_COLOR.style.backgroundColor = BG_COLOR.value.trim();
     TEXT.style.backgroundColor = BG_COLOR.value.trim();
