@@ -17,6 +17,12 @@ function update() {
     MAIN_P.innerHTML = TEXT.value.trim();
     MAIN_P.style.fontSize = SIZE.value.trim();
     MAIN_P.style.fontFamily = FONT.value.trim();
+    TEXT_COLOR.style.color = FONT.value.trim();
+    BG_COLOR.style.color = FONT.value.trim();
+    TEXT.style.color = FONT.value.trim();
+    SIZE.style.color = FONT.value.trim();
+    FONT.style.color = FONT.value.trim();
+    UPDATER.style.color = FONT.value.trim();
     document.body.style.backgroundColor = BG_COLOR.value.trim();
     TEXT_COLOR.style.backgroundColor = BG_COLOR.value.trim();
     BG_COLOR.style.backgroundColor = BG_COLOR.value.trim();
