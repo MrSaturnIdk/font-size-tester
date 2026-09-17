@@ -25,6 +25,12 @@ function update() {
     FONT.style.backgroundColor = BG_COLOR.value.trim();
     UPDATER.style.backgroundColor = BG_COLOR.value.trim();
     MAIN_P.style.color = TEXT_COLOR.value.trim();
+    TEXT_COLOR.style.color = TEXT_COLOR.value.trim();
+    BG_COLOR.style.color = TEXT_COLOR.value.trim();
+    TEXT.style.color = TEXT_COLOR.value.trim();
+    SIZE.style.color = TEXT_COLOR.value.trim();
+    FONT.style.color = TEXT_COLOR.value.trim();
+    UPDATER.style.color = TEXT_COLOR.value.trim();
 }
 
 LOADING_SCREEN.style.display = "none";
