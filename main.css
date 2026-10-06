@@ -1,3 +1,7 @@
+body, input, button {
+    background-color: #FFFFFF;
+}
+
 body {
     overflow: hidden;
 }
