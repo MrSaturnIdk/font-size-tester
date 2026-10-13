@@ -1,62 +1,62 @@
 body, input, button {
-    background-color: #FFFFFF;
+	background-color: #FFFFFF;
 }
 
 body {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 input {
-    text-align: center;
-    width: 15vw;
-    height: 30vh;
+	text-align: center;
+	width: 15vw;
+	height: 30vh;
 }
 button {
-    text-align: center;
-    width: 15vw;
-    height: 15vh;
+	text-align: center;
+	width: 15vw;
+	height: 15vh;
 }
 
 #main-p {
-    text-align: center;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    translate: -50% -50%;
+	text-align: center;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	translate: -50% -50%;
 }
 #size {
-    position: absolute;
-    top: 60%;
-    left: 15%;
-    translate: -50% -50%;
+	position: absolute;
+	top: 60%;
+	left: 15%;
+	translate: -50% -50%;
 }
 #font {
-    position: absolute;
-    top: 60%;
-    left: 30%;
-    translate: -50% -50%;
+	position: absolute;
+	top: 60%;
+	left: 30%;
+	translate: -50% -50%;
 }
 #bg-color {
-    position: absolute;
-    top: 60%;
-    left: 45%;
-    translate: -50% -50%;
+	position: absolute;
+	top: 60%;
+	left: 45%;
+	translate: -50% -50%;
 }
 #text-color {
-    position: absolute;
-    top: 60%;
-    left: 60%;
-    translate: -50% -50%;
+	position: absolute;
+	top: 60%;
+	left: 60%;
+	translate: -50% -50%;
 }
 #text {
-    position: absolute;
-    top: 60%;
-    left: 75%;
-    translate: -50% -50%;
+	position: absolute;
+	top: 60%;
+	left: 75%;
+	translate: -50% -50%;
 }
 #update {
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    translate: -50% -50%;
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	translate: -50% -50%;
 }
