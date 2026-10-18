@@ -14,7 +14,7 @@ const TEXT = document.getElementById("text");
 const UPDATER = document.getElementById("update");
 
 function update() {
-	MAIN_P.innerHTML = TEXT.value.trim();
+	MAIN_P.textContent = TEXT.value.trim();
 	MAIN_P.style.fontSize = SIZE.value.trim();
 	MAIN_P.style.fontFamily = FONT.value.trim();
 	TEXT_COLOR.style.fontFamily = FONT.value.trim();
